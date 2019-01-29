@@ -1,11 +1,10 @@
 String=input("Enter the String: ")
-ListStr=list(String)
 Alpha=0
 Numeral=0
-for i in ListStr:
- if str(i).isnumeric():
+for i in String:
+ if i.isnumeric():
      Numeral+=1
- elif str(i).isalpha():
+ elif i.isalpha():
      Alpha+=1
 print("Alphabet COunt: ",Alpha)
 print("Numerals count: ",Numeral)
