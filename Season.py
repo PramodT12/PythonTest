@@ -9,4 +9,4 @@ elif Month.lower() in Summer:
 elif Month.lower() in Rainy:
     print("entered month is Rainy Season")
 else:
-    print("Hello")
+    print("Not a Good Season")
