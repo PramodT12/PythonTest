@@ -1,0 +1,7 @@
+InputString=input("Enter the String/Text:")
+print("In upper case:",InputString.upper())
+print("No of occurence of p in String is ",InputString.count("p"))
+print("Replacing Python with Ruby:",InputString.replace("Python","Ruby"))
+print("Count of words in String is:",len(InputString.split()))
+print("Count of Characters in String is:",len(InputString))
+print("Removing leading and trailing spaces:",InputString.strip())

@@ -1,0 +1,143 @@
+tutorialspoint.com/python3
+tutorialcampus.com/examples
+
+https://notepad.pw/k6571zyw
+
+
+Day1 Assignments:
+
+write a program to capture any filename from keyboard and display its filename and extension seperately.
+Output :
+Enter any filename :  hello.py
+
+filename : hello
+extension: py
+=============================================================================
+write a program to capture two numbers seperately from keyboards and display itsum
+
+Enter first number  : 10
+Enter seconed number: 20
+sum of the numbers  : 30
+===========================================================================
+write a program to remove all the duplicates of the list
+alist = [10,20,30,10,35,20,67,89,20,10]
+
+Output :  should display all unique numbers
+===========================================================================
+write a program to capture the string " Python is general purpose interpreted cross platform programming lang" 
+from the keyboard and perform the below operations
+
+1. display the string in uppercase
+2. count of no. of occurences of p in the string and display it
+3. replace python to ruby in the string
+4. count the no. of words in the string		# len(str.split(" ")
+5. count the no. of characters and display it   # len(str)
+6. remove spaces if having any                  # str.strip()
+===========================================================================
+define empty list in your program and perform all the below operations.
+
+append 10 to the list
+append 20 to the list
+append 50 to the list
+extend the list with 90,20,45,32,645,32,90,65,43,23,55,4,32,50
+remove all the duplicates from the list
+remove 50 from the list
+sort all the elements in descending order.
+convert the list to the tuple and display it.
+
+===========================================================================
+
+write  a program to capture string from keyboard and display as below
+string is too short if the length of the string is < 5 
+string is too long if the length of the string is >30
+----------------------------------------------------------------------------
+write a program to capture the string from the keyboard and 
+
+convert the string into lowercase if the string is upper
+convert the string into uppercase if the string is lower.
+
+----------------------------------------------------------------------------
+define list as below and display all the unique elements of the list and length of
+the list
+
+alist = ["google.com","unix.com","facebook.com","google.com","linkedin.com"]
+Output :
+[10,8,12,12]
+----------------------------------------------------------------------------
+
+write a program to capture the input as below and convert into list
+
+Enter any string : unix,java,oracle,hadoop
+Output:
+['unix','java','oracle','hadoop']
+----------------------------------------------------------------------------
+
+write a program to display all the odd numbers from 500 to 400.
+----------------------------------------------------------------------------
+
+write a program to display the below output
+
+1.py
+2.py
+3.py
+4.py
+5.py
+6.py
+7.py
+8.py
+9.py
+10.py
+
+----------------------------------------------------------------------------
+
+
+write a program to display the series of IP addresses in the below format.
+
+192.168.0.1
+192.168.0.2
+192.168.0.3
+...
+...
+192.168.0.100
+
+------------------------------------------------------------------------
+write a program to display the series of IP addresses in the below format.
+
+192.168.0.1
+192.168.0.2
+192.168.0.3
+...
+...
+192.168.0.100
+
+
+--------------------------------------------------------------------------
+write a program to display the IPs in the below format.
+172.168.0.1
+172.168.0.2
+172.168.0.3
+...
+...
+172.168.0.10
+172.168.1.1
+172.168.1.2
+172.168.1.3
+...
+...
+172.168.1.10
+
+------------------------------------------------------------------------
+Write a program to check the validity of password input by user.
+Following are the criteria for checking the password:
+
+1. At least 1 character from [$#@]
+2. Minimum length of transaction password: 6
+3. Maximum length of transaction password: 12
+
+
+display "Valid password" if all the conditions are 
+satisfied or "Invalid password"
+
+
+
+Day2 Assignments:
