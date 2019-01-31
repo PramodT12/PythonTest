@@ -27,7 +27,6 @@ def createtable():
         con.close()
         
 def copycontent():
-    try:
         with open("RealEstate.csv") as fobj:
             Header=fobj.readline()
             csvreader=csv.reader(fobj)
@@ -35,22 +34,7 @@ def copycontent():
                 #print(item)
                 sql="insert into RealEstate values ('{}','{}',{},'{}',{},{},{},'{}','{}',{},{},{})".format(item[0],item[1],item[2],item[3],item[4],item[5],item[6],item[7],item[8],item[9],item[10],item[11])
                 cursor.execute(sql)
-        
-        
-    except FileNotFoundError as error:
-        print("File Doesn't exists. Please check: ",error)
-    except IndexError as error:
-        print("Inserted items are either more than table colums or the type of value being passed is not matching with field datatype")
-        print("System throwed error as :",error)
-    except pymysql.err.InternalError as error :
-        print("There is some error while inserting data")
-        print("System throwed error as :",error)
-    else :
-        print("Commiting the Inserted data")
         cursor.execute("commit")
-        print("Data inserted successfully")
-            
-    finally :
         con.close()  
 
 # Main Program execution :
