@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>RealEstate Data!</title>
+        <style type ="text/css">
+            h1 {
+                color:red;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Welcome to Sample RealEstate Data!!!!</h1>
+        <table border=1>
+		<tr>
+				<th>Street</th>
+				<th>City</th>
+				<th>Zipcode</th>
+				<th>State</th>
+				<th>Beds</th>
+				<th>Bath</th>
+				<th>Sq.Feet</th>
+				<th>Type</th>
+				<th>Sale_Date</th>
+				<th>Price</th>
+				<th>Latitude</th>
+				<th>Longitude</th>
+		</tr>
+		
+		    {% for item in fobj %}
+				<tr>
+				<td>{{Street}}</td>
+				<td>{{City}}</td>
+				<td>{{Zip}}</td>
+				<td>{{State}}</td>
+				<td>{{Beds}}</td>
+				<td>{{Bath}}</td>
+				<td>{{SqFt}}</td>
+				<td>{{Type}}</td>
+				<td>{{SaleDate}}</td>
+				<td>{{Price}}</td>
+				<td>{{Latitude}}</td>
+				<td>{{Longitude}}</td>
+				</tr>
+            {% endfor %}
+			
+        
+		</table>
+    </body>
+</html>
+
+
